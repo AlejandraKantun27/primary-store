@@ -30,6 +30,7 @@ app.get("/", (req, res) => {
 });
 
 require("./app/routes/authentication.routes")(app);
+require("./app/routes/products.routes")(app);
 
 
 
