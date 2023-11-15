@@ -47,8 +47,8 @@ exports.createPromotionalProduct = async (req, res) => {
       fecha_inicio_promocion: fecha_inicio_promocion,
       fecha_finalizacion_promocion: fecha_finalizacion_promocion,
       activo: true,
-      campo_adicional_1: req.body.campo_adicional_1,
-      campo_adicional_2: req.body.campo_adicional_2,
+      numero_serie: req.body.numero_serie,
+      marca: req.body.marca,
     });
     res.status(201).json(promotionalProduct);
   } catch (error) {
