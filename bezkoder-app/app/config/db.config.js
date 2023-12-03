@@ -1,5 +1,5 @@
 module.exports = {
-  HOST: '3.15.220.210',
+  HOST: 'host.docker.internal',
   USER: process.env.DB_USER,
   PASSWORD: process.env.MYSQL_ROOT_PASSWORD,
   DB: process.env.DB_NAME,
